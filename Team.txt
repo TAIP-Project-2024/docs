@@ -1,0 +1,38 @@
+Political Sentiment and Community Analysis
+
+Coordinator: Gabriel Constantinescu
+Trello Board: https://trello.com/b/SUgMGXkb/taip-2024
+GitHub organization: https://github.com/TAIP-Project-2024
+
+Tech Stack
+- Frontend: ReactJs, NodeJs 
+- Backend: Django Python | PyTorch | TensorFlow | Keras | GraphML (OGDF)
+- Database: MongoDB, PostgreSQL
+
+Lazurcă Samuel-Ionuț
+- Scrum Master
+- Backend
+- Data Preparation
+- DevOps
+- Machine Learning
+
+Rotaru Florin Eugen
+- Backend
+- Frontend
+- Data Visualization
+
+Nastasiu Ștefan
+- Neural Networks
+- Backend
+- Frontend
+- Machine Learning
+- DevOps
+
+Nestor Maria
+- Backend
+- Sentiment Analysis
+
+Hriscu Alexandru-Gabriel
+- Frontend
+- Backend
+- Security

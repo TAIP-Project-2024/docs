@@ -20,11 +20,11 @@
 
 ---
 
-### activity_diagram_1 
+### activity_diagram_1 (Nastasiu Stefan)
 
-### activity_diagram_2 
+### activity_diagram_2 (Nastasiu Stefan)
 
-### activity_diagram_3 
+### activity_diagram_3 (Nastasiu Stefan)
 
 This is the description of a project I need to make UML diagrams for. Can you take this description and provide me activity diagrams (or just one if it's enough) for this project? You can give me the text-based activity diagram, so I can input it in a visualizer.
 
@@ -79,9 +79,9 @@ in backend, the "Save Graph Request Received?" process is placed wrongly before 
 
 ---
 
-### c4_level_1_diagram 
+### c4_level_1_diagram (Nestor Maria)
 
-### c4_level_2_diagram 
+### c4_level_2_diagram (Nestor Maria)
 
 Requirement Analysis for Real-Time Social Media Sentiment and Community Analysis Dashboard
 Project Overview
@@ -111,7 +111,7 @@ Functional Requirements
 
 ---
 
-### c4_level_3_base_api_diagram 
+### c4_level_3_base_api_diagram (Lazurca Samuel-Ionut)
 
 My Application has Base Api that is multi-layered. One layer is represented by a middleware for authorization/authentication, layers for controllers, services, repositories, persistence. User data is saved in a PostgreSQL db and data about social media posts are saved in a MongoDb database. Base Api communicates with the Date Collector Api that fetches data and inserts in in the MongoDb once in a while. The Fronted Web Application uses the base api that provides services like: fetching live data, get graph representations of data, the user can save those graphs, the admin ca generate reports and see the users. The data will be analysed to detect political sentiment and communities polarization in social media and it's collected using the X Api. Machine Learning, Deep Learning, Hybrid and Lexicon approaches will be used. Given this context create a C4 third level/component diagram for the Base Api using PlantUml.
 Use an up to date plantUml version
@@ -119,11 +119,11 @@ ML analysis is done in base api also
 the middleware is before controllers, it should intercept every request
 use the c4 notations and colors
 
-### c4_level_3_data_collector_diagram 
+### c4_level_3_data_collector_diagram (Lazurca Samuel-Ionut)
 
 Create a C4 third level diagram for a Data Collector API that collects data from X api and saves it in a MongoDb database. It should preprocess it and do feature selection. This Api is used by a Base Api.
 
-### c4_level_3_frontend_diagram
+### c4_level_3_frontend_diagram (Nastasiu Stefan)
 
 Make me the C4 third level diagram for the Frontend of an application. The Frontend communicates with the User component and also with the Base API. It doesn't communicate with services or database, because all the information is retrieved from Base API. 
 
@@ -141,7 +141,7 @@ These are the main features of the Frontend Container:
 6. The user will be able to save the generated graphs and load them from saved graphs.
 ---
 
-### class_diagram_1 
+### class_diagram_1 (Hriscu Alexandru-Gabriel)
 
 keeping in mind the following requirement analysis, I want you to build me another general class diagram (I want there to be aggregation relationships, respectively composition): ### Requirement Analysis for Real-Time Social Media Sentiment and Community Analysis Dashboard
 
@@ -166,6 +166,12 @@ Backend Django (Python): For API development and server-side processing. TensorF
 Frontend React.js: For building an interactive and responsive user interface. D3.js: For data visualization, including interactive graphs, heatmaps, and charts.
 APIs Twitter API (𝕏): For fetching live tweets. Reddit API: For fetching data from Reddit. Facebook API: (If available) for fetching Facebook data. Conclusion This requirement analysis outlines the functionalities and technical specifications for building a real-time social media sentiment and community analysis dashboard. The system will utilize advanced NLP, machine learning models, and data visualization techniques to provide insightful analytics for political sentiment, brand analysis, and user community interaction patterns.
 
-### class_diagram_2 
+### class_diagram_2 (Hriscu Alexandru-Gabriel)
 
 now make the class diagram for Detecting Communities
+
+# Diagrams that were made without AI:
+
+---
+
+### use_case (Hriscu Alexandru-Gabriel)

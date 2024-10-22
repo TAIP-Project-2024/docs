@@ -34,8 +34,6 @@ Use sentiment analysis and topic modeling to detect political alignment in posts
 Apply community detection to map polarized groups.
 Visualize polarized communities with color-coded clusters and the strength of interaction between groups.
 
----
-
 Requirements analysis (not fully complete):
 
 Our application is a real-time dashboard that fetches live social media data (e.g., from Twitter, Reddit, etc.) and analyzes sentiment in posts and comments. The results will be displayed on an interactive graph where nodes represent users and edges represent interactions (likes, replies, mentions, etc.).
@@ -123,7 +121,7 @@ use the c4 notations and colors
 
 Create a C4 third level diagram for a Data Collector API that collects data from X api and saves it in a MongoDb database. It should preprocess it and do feature selection. This Api is used by a Base Api.
 
-### c4_level_3_frontend_diagram (Nastasiu Stefan)
+### c4_level_3_frontend_diagram (Rotaru Florin-Eugen)
 
 Make me the C4 third level diagram for the Frontend of an application. The Frontend communicates with the User component and also with the Base API. It doesn't communicate with services or database, because all the information is retrieved from Base API. 
 
@@ -139,6 +137,61 @@ These are the main features of the Frontend Container:
 3. The user will be able to visualize graphs and different types  of diagrams on different political topics. 
 5. The user will be able to visualize the polarization in social media communities
 6. The user will be able to save the generated graphs and load them from saved graphs.
+
+---
+
+### package_diagram (Rotaru Florin-Eugen)
+
+This is the description of a project I need to make UML diagrams for. Can you take this description and provide me package diagrams (or just one if it's enough) for this project?
+You can give me the text-based diagram, so I can input it in a visualizer.
+
+Description: Build a system to analyze and visualize political sentiment and polarization in social media networks. The tool will detect communities aligned with different political opinions and visualize their polarization level based on sentiment and user interactions.
+Features:
+Use sentiment analysis and topic modeling to detect political alignment in posts.
+Apply community detection to map polarized groups.
+Visualize polarized communities with color-coded clusters and the strength of interaction between groups.
+
+Requirements analysis (not fully complete):
+
+Our application is a real-time dashboard that fetches live social media data (e.g., from Twitter, Reddit, etc.) and analyzes sentiment in posts and comments. The results will be displayed on an interactive graph where nodes represent users and edges represent interactions (likes, replies, mentions, etc.).
+
+Requirements
+
+Backend:
+
+Microservices architecture
+A service that obtains data using the 𝕏 Api, preprocesses it and stores it in a MongoDb database
+A service that generates the graphs representations 
+A service that trains different types of models and applies sentiment analysis algorithms on the collected data
+Login/Register System
+
+Frontend:
+
+The user will login or register to use the application 
+The user will interact with the application using a dashboard
+The user will be able to visualize graphs and different types  of diagrams on different political topics
+The user will be able to visualize the polarization in social media communities
+
+=======================================================================
+
+Write it in @startuml, with package "X"...
+
+=======================================================================
+
+My Application has Base Api that is multi-layered. One layer is represented by a middleware for authorization/authentication, layers for controllers, services, repositories, persistence. User data is saved in a PostgreSQL db and data about social media posts are saved in a MongoDb database. Base Api communicates with the Date Collector Api that fetches data and inserts in in the MongoDb once in a while. The Fronted Web Application uses the base api that provides services like: fetching live data, get graph representations of data, the user can save those graphs, the admin ca generate reports and see the users. The data will be analysed to detect political sentiment and communities polarization in social media and it's collected using the X Api. Machine Learning, Deep Learning, Hybrid and Lexicon approaches will be used.
+
+=======================================================================
+
+don't put class, put instead like in this example:
+
+[User Interface] as UI
+[Dashboard] as DB
+[Graph Visualization] as GV
+
+UI --> DB : Login/Register
+DB --> GV : Display Graphs
+GV --> DB : Show Polarization
+
 ---
 
 ### class_diagram_1 (Hriscu Alexandru-Gabriel)

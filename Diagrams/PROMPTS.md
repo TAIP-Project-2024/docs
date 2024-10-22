@@ -4,6 +4,18 @@
 - ChatUML
 - Diagramming AI
 
+# Disadvantages
+
+- include/exclude/extends relationships
+- PlantUML code with errors
+- hard to convice it to create a diagram as you wish
+
+# Advantages
+
+- less time spent
+- we didn't have to draw the diagrams by hand
+- sometimes it had useful ideas
+
 # Diagrams that were made using AI:
 
 ---

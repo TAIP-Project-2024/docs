@@ -111,6 +111,22 @@ use the c4 notations and colors
 
 Create a C4 third level diagram for a Data Collector API that collects data from X api and saves it in a MongoDb database. It should preprocess it and do feature selection. This Api is used by a Base Api.
 
+### c4_level_3_frontend_diagram
+
+Make me the C4 third level diagram for the Frontend of an application. The Frontend communicates with the User component and also with the Base API. It doesn't communicate with services or database, because all the information is retrieved from Base API. 
+
+The Frontend will be delimited by System_Boundary in the diagram. 
+
+I have the User module like this: (User, A user of the dashboard who analyzes sentiment and community interactions). The User Uses [HTTPS] and has an arrow pointing at the Web Application container (Web Application, [JavaScript, React], Provides an interface for users to visualize data). Then the Web Application container has an arrow titled (User requests are sent to the Base API) and pointing to the Base API container (Base API, [React, NodeJs], Provides the main functionalities of the application).
+
+The application will be a real-time dashboard that fetches live social media data (e.g., from Twitter, Reddit, etc.) and analyzes sentiment in posts and comments. The results will be displayed on an interactive graph where nodes represent users and edges represent interactions (likes, replies, mentions, etc.).
+
+These are the main features of the Frontend Container:
+1. The user will login or register to use the application.
+2. The user will interact with the application using a dashboard.
+3. The user will be able to visualize graphs and different types  of diagrams on different political topics. 
+5. The user will be able to visualize the polarization in social media communities
+6. The user will be able to save the generated graphs and load them from saved graphs.
 ---
 
 ### class_diagram_1 

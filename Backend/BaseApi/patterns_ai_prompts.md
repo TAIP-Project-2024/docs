@@ -146,3 +146,66 @@ AuthorizationMiddleware: Verifies user permissions.
 LoggingMiddleware: Logs requests and responses.
 
 
+---
+
+Below is the description of a project I need to make in python. Below are the tasks I need to implement as well. So write me class and method names, but without code. Structure them in packages also. I need to make them for the machine learning module, so for deep learning (I'll intend to use cnn or bert for the model and train it on data fetched from twitter).
+
+-------------------
+Description: Build a system to analyze and visualize political sentiment and polarization in social media networks. The tool will detect communities aligned with different political opinions and visualize their polarization level based on sentiment and user interactions.
+Features:
+Use sentiment analysis and topic modeling to detect political alignment in posts.
+Apply community detection to map polarized groups.
+Visualize polarized communities with color-coded clusters and the strength of interaction between groups.
+Technology Stack: To be discussed
+
+
+
+
+Requirements
+
+Accuracy Metrics: Precision
+Modularity Scores: Measures the strength of division of a network into communities.
+Visualization Tools: Assessing the clarity and informativeness of visual representations (e.g., color-coded clusters, interaction strengths).
+
+-------------------------
+
+Themes laboratory:
+1. Design Patterns
+2. Modelling
+3. Team coordination, negotiation
+4. Working with Github
+Problem 1 [20 points]
+On the theme set by the scientific coordinator of the project get started implementing basic classes:
+Only declarations attributes, methods and relationships between classes. Without methods implement
+and functionality! (All names will be in English). It will be mandatory that each member of the group to
+implement at least two design patterns as sources project to be put on Github. In determining the score
+will take into account the correct identification of elements, their relationship and complexity of results. Use as many design patterns for better grade.
+
+
+=========================================
+
+
+implement 1, 2, 3 and 5. Write python code for classes and methods, but don't write the methods. Just declaration attributes, methods and relationships between classes. I need to implement the design patterns as well.
+
+
+=========================================
+
+
+my project is a django web application. Below is the current structure. Where to place these packages and classes, or how to structure this machine learning module. You can rename the packages if they colide with existing naming.
+
+api
+  -controllers
+  -middleware
+  -migrations
+  -models
+  -repositories
+  -services
+BaseApi
+
+
+=========================================
+
+
+if you think about the future, can this project structure be further improved, while also maintaining the controller-repository-service design pattern?
+
+

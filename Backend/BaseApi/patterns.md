@@ -22,15 +22,6 @@
 - The concrete classes, **MongoDBRepository** and **PostgresRepository** implement the base methods defined in template.
 - This allows flexibility in the underlying database logic.
 - It is present in **DbTemplate** class
-  
-### Connection Pool (Nestor Maria)
-
-- The **Connection Pool Design Pattern** manages the database connections efficiently.
-- It allows the reuse of connections and provides scalability.
-- It is useful in a concurrent environments.
-- It is used in **PostgreSQLConnectionPool** and **MongoDBClient**
-- **For PostgreSQL:** When a connection is needed, a connection can be obtained by using the `connection = pool.getconn()` method (to release them back, just use `pool.putconn(connection)`).
-- **For MongoDB:** The pool of connections is initialized by `client = MongoClient()`. MongoClient will automatically manage the connections. To close the pool, use `client.close()`.
 
 ### Active Record (Maria)
 
@@ -50,7 +41,7 @@
 
 ### Visitor (Rotaru Florin)
 
-- Lets us separate algotithms from the objects on which they operate
+- Lets us separate algorithms from the objects on which they operate
 - A good example is the GraphDrawing class
 
 ### Dependency Injection Pattern (Hriscu Alexandru-Gabriel)
